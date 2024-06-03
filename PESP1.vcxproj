@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4f0fe19f-fe08-4443-ab7c-e449a917d088}</ProjectGuid>
+    <RootNamespace>PESP1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>PESP/vendor/DirectXTex/include;PESP/vendor/tinyobjloader/include;PESP/include;PESP/source;PESP/Assests;PESP/vendor/DirectXTK/include;$(IncludePath)</IncludePath>
+    <LibraryPath>PESP/vendor/DirectXTex/bin;PESP/vendor/DirectXTK/bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;DirectXTexD.lib;DirectXTKD.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PESP\source\PESP\Resource\Font.cpp" />
+    <ClCompile Include="Game\main.cpp" />
+    <ClCompile Include="Game\PESPGame.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\CameraComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\Component.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\FogComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\TerrainComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\TransformComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\WaterComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Game\Display.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\Entity.cpp" />
+    <ClCompile Include="PESP\source\PESP\Game\Game.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\LightComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\MeshComponent.cpp" />
+    <ClCompile Include="PESP\source\PESP\Game\Win32\Win32Game.cpp" />
+    <ClCompile Include="PESP\source\PESP\Game\World.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\ConstantBuffer.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\DeviceContext.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\Font2D.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\GraphicsEngine.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\IndexBuffer.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\PixelShader.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\RenderSystem.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\SwapChain.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\Texture2D.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\VertexBuffer.cpp" />
+    <ClCompile Include="PESP\source\PESP\Graphics\VertexShader.cpp" />
+    <ClCompile Include="PESP\source\PESP\Input\InputSystem.cpp" />
+    <ClCompile Include="PESP\source\PESP\Resource\Material.cpp" />
+    <ClCompile Include="PESP\source\PESP\Resource\Mesh.cpp" />
+    <ClCompile Include="PESP\source\PESP\Resource\Resource.cpp" />
+    <ClCompile Include="PESP\source\PESP\Resource\ResourceManager.cpp" />
+    <ClCompile Include="PESP\source\PESP\Resource\Texture.cpp" />
+    <ClCompile Include="PESP\source\PESP\Window\Window.cpp" />
+    <ClCompile Include="PESP\source\PESP\Entity\TextComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PESP\include\PESP\Resource\Font.h" />
+    <ClInclude Include="Game\PESPGame.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="PESP\include\PESP\All.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\CameraComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\Component.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\FogComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\TerrainComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\TransformComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\WaterComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Game\Display.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\Entity.h" />
+    <ClInclude Include="PESP\include\PESP\Game\Game.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\LightComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\MeshComponent.h" />
+    <ClInclude Include="PESP\include\PESP\Game\World.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\ConstantBuffer.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\DeviceContext.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\Font2D.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\GraphicsEngine.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\IndexBuffer.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\PixelShader.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\RenderSystem.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\SwapChain.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\Texture2D.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\VertexBuffer.h" />
+    <ClInclude Include="PESP\include\PESP\Graphics\VertexShader.h" />
+    <ClInclude Include="PESP\include\PESP\Input\InputSystem.h" />
+    <ClInclude Include="PESP\include\PESP\Math\Matrix4x4.h" />
+    <ClInclude Include="PESP\include\PESP\Math\Rect.h" />
+    <ClInclude Include="PESP\include\PESP\Math\Vector2D.h" />
+    <ClInclude Include="PESP\include\PESP\Math\Vector3D.h" />
+    <ClInclude Include="PESP\include\PESP\Math\Vector4D.h" />
+    <ClInclude Include="PESP\include\PESP\Math\VertexMesh.h" />
+    <ClInclude Include="PESP\include\PESP\Prerequisites.h" />
+    <ClInclude Include="PESP\include\PESP\Resource\Material.h" />
+    <ClInclude Include="PESP\include\PESP\Resource\Mesh.h" />
+    <ClInclude Include="PESP\include\PESP\Resource\Resource.h" />
+    <ClInclude Include="PESP\include\PESP\Resource\ResourceManager.h" />
+    <ClInclude Include="PESP\include\PESP\Resource\Texture.h" />
+    <ClInclude Include="PESP\include\PESP\Window\Window.h" />
+    <ClInclude Include="PESP\source\PESP\Graphics\ShaderInclude.h" />
+    <ClInclude Include="PESP\include\PESP\Entity\TextComponent.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
