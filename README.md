@@ -1,7 +1,7 @@
 # Read Me
 ## PESP ---> "Project ESP" 3D Game/Engine
 
-[![Build Status]((https://travis-ci.org/travis-pro/manual.svg?branch=master))](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-)
+[![Build Status](https://img.shields.io/badge/Build_Status-passing-green)](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-)
 
 # PESP is a DirectX11 3D Game Independent Project
 ***Disclaimer** This is not a stand-alone 3D game engine editor, this 3D game engine is for an independent game 
