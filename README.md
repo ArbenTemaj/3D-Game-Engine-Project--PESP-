@@ -1,11 +1,10 @@
 # Read Me
 ## PESP ---> "Project ESP" 3D Game/Engine
+[![Build Status](https://img.shields.io/badge/Build_Status-passing-green)](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-)
 
 ![ScreenShots](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-/blob/main/screenshots/s1.png)
 
 ![ScreenShots](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-/blob/main/screenshots/s2.png)
-
-[![Build Status](https://img.shields.io/badge/Build_Status-passing-green)](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-)
 
 # PESP is a DirectX11 3D Game Independent Project
 ***Disclaimer** This is not a stand-alone 3D game engine editor, this 3D game engine is for an independent game 
