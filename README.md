@@ -1,19 +1,19 @@
 # Read Me
-## PESP ---> "Project ESP" 3D Game/Engine
+## 3D Game Engine using DirectX11 as the graphics API
 [![Build Status](https://img.shields.io/badge/Build_Status-passing-green)](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-)
 
 ![ScreenShots](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-/blob/main/screenshots/s1.png)
 
 ![ScreenShots](https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-/blob/main/screenshots/s2.png)
 
-# PESP is a DirectX11 3D Game Independent Project
-***Disclaimer** This is not a stand-alone 3D game engine editor, this 3D game engine is for an independent game 
-that currently is under development and files are subject to change. Unfortunately, further development will be 
+# PESP Version 1.01 is a DirectX11 3D Game engine that supports basic rendering and is my first attempt on making a game engine.
+***Disclaimer** This is not a stand-alone 3D game engine editor, this 3D game engine I tried making that supports basic rendering 
+and currently is abandonded for my second iteration on this project. Unfortunately, further development will be 
 close source for now.. feel free to check this repo, thank you!*
 
 ## Requirements
 
-- **IDE:** Visual Studio 2022 Community or any **C++** *IDE*
+- **IDE:** any **C++17** *IDE*
 - **Platform OS:** Windows
 - **Graphics API:** DirectX11
 
@@ -31,13 +31,11 @@ close source for now.. feel free to check this repo, thank you!*
 3D Game Engine desgin follows best industry practices and is written in **C++**  
 by [Arben Temaj] and also checkout my [website][ATemaj Web]
 
-> PESP is still under development,
-> more features will be added but
-> for now this project is limited.
-> To be clear this is a 3D game first
-> and may not have all the features of
-> a 3D game engine. Rest assured this 3D
-> graphical engine is more than capable,
+> PESP is still under close repo development,
+> No more features will be added to this repo but
+> for now this project is my limited first iteration.
+> To be clear this legacy code from my first attempt!
+> Rest assured this 3D graphical engine is more than capable,
 > Even with these limited features!
 
 ## Installation
@@ -65,24 +63,21 @@ tiny_obj_loader.h must be include in your *IDE*   directories for the project to
 
 ## Development
 
-Will try to contribute and update this repo as much as possible!
+Will try to contribute and update this repo with youtube video dev logs!
 *PESP* development process will likely change and here are some 
 exciting changes that will be coming soon...
 
 - collision detection physics
 - player character model animations
-- Game hud images and rendering of images
-- Cmake GUI (currently using Windows GUI)
 
 There are a lot more development changes in the works! The
-graphics API will continue to be *DirectX* and going to update
-from *DirectX11* to *DirectX12* shortly after these changes.
+Dev logs will be posted in youtube.
  
 ## Updates
 
 *Here are the most current posted updates from this repo*
 ```sh
-'coming soon =)'
+'Will share youtube links on my dev logs'
 ````
 
 [//]: #
