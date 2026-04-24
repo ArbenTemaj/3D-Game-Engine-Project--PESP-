@@ -96,4 +96,4 @@ to stay more updated.
    [tinyobjloader]: <https://github.com/tinyobjloader/tinyobjloader>
    [DirectX11]: <https://www.microsoft.com/en-us/download/details.aspx?id=17431>
    [DirectXTK]: <https://github.com/microsoft/DirectXTK>
-   [youtube]: <https://www.youtube.com/watch?v=8NThtLEN47I&t=14s>
+   [youtube]: <https://www.youtube.com/watch?v=8NThtLEN47I>
