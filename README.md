@@ -31,10 +31,10 @@ close source for now.. feel free to check this repo, thank you!*
 3D Game Engine desgin follows best industry practices and is written in **C++**  
 by [Arben Temaj] and also checkout my [website][ATemaj Web]
 
-> PESP is still under close repo development,
+> PESP is still under close source development,
 > No more features will be added to this repo but
 > for now this project is my limited first iteration.
-> To be clear this legacy code from my first attempt!
+> To be clear this is just my legacy code from my first attempt!
 > Rest assured this 3D graphical engine is more than capable,
 > Even with these limited features!
 
@@ -73,12 +73,12 @@ exciting changes that will be coming soon...
 - player character model animations
 
 There are a lot more development changes in the works! The
-Dev logs will be posted in youtube.
+Dev logs will be posted on my youtube page [bentemaj]
 
 ## Showcase
 To view the My current 3D game engine project showcase click this link [youtube]
 
-My dev logs will be under updates, please just subscribe to my youtube
+My dev logs will be under updates, please just subscribe to my youtube [bentemaj]
 to stay more updated.
  
 ## Updates
@@ -97,3 +97,4 @@ to stay more updated.
    [DirectX11]: <https://www.microsoft.com/en-us/download/details.aspx?id=17431>
    [DirectXTK]: <https://github.com/microsoft/DirectXTK>
    [youtube]: <https://www.youtube.com/watch?v=8NThtLEN47I>
+   [bentemaj]: <https://www.youtube.com/@BenTemaj>
