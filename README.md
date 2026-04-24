@@ -74,13 +74,19 @@ exciting changes that will be coming soon...
 
 There are a lot more development changes in the works! The
 Dev logs will be posted in youtube.
+
+## Showcase
+To view the My current 3D game engine project showcase click this link [youtube]
+
+My dev logs will be under updates, please just subscribe to my youtube
+to stay more updated.
  
 ## Updates
 
 *Here are the most current posted updates from this repo*
 ```sh
-'Will share youtube links on my dev logs'
-````
+'Will share more youtube links on my dev logs'
+```
 
 [//]: #
 
@@ -90,3 +96,4 @@ Dev logs will be posted in youtube.
    [tinyobjloader]: <https://github.com/tinyobjloader/tinyobjloader>
    [DirectX11]: <https://www.microsoft.com/en-us/download/details.aspx?id=17431>
    [DirectXTK]: <https://github.com/microsoft/DirectXTK>
+   [youtube]: <https://www.youtube.com/watch?v=8NThtLEN47I&t=14s>
