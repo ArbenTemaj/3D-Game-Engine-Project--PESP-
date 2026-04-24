@@ -40,7 +40,9 @@ by [Arben Temaj] and also checkout my [website][ATemaj Web]
 
 ## Installation
 
- - GitHub repo link 
+ ```sh
+ git clone https://github.com/ArbenTemaj/3D-Game-Engine-Project--PESP-/
+ ```
  
 ### Download sources
  
